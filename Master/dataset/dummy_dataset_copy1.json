@@ -1,0 +1,29 @@
+{
+	"name": "dummy_dataset_copy1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDummy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "corr_matrix.csv",
+				"container": "input-files"
+			},
+			"columnDelimiter": "\u0001",
+			"escapeChar": "",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": [
+			{
+				"name": ",Age,IQ,Height,Weight,O,C,E,A,N",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

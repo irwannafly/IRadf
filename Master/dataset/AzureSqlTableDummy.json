@@ -1,0 +1,58 @@
+{
+	"name": "AzureSqlTableDummy",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseDummy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "prop_0",
+				"type": "varchar"
+			},
+			{
+				"name": "Age",
+				"type": "varchar"
+			},
+			{
+				"name": "IQ",
+				"type": "varchar"
+			},
+			{
+				"name": "Height",
+				"type": "varchar"
+			},
+			{
+				"name": "Weight",
+				"type": "varchar"
+			},
+			{
+				"name": "o",
+				"type": "varchar"
+			},
+			{
+				"name": "c",
+				"type": "varchar"
+			},
+			{
+				"name": "e",
+				"type": "varchar"
+			},
+			{
+				"name": "a",
+				"type": "varchar"
+			},
+			{
+				"name": "n",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "corr_matrix_dummy"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

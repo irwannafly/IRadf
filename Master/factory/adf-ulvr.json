@@ -1,0 +1,9 @@
+{
+	"name": "adf-ulvr",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "73177c87-e655-437a-b7e9-27363add32f2",
+		"tenantId": "0b66e7df-d4e0-47cc-941a-5530bd374b02"
+	}
+}

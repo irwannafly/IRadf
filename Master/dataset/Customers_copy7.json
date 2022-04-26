@@ -1,0 +1,57 @@
+{
+	"name": "Customers_copy7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDummy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Sales_2016.csv",
+				"container": "input-files"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": [
+			{
+				"name": "OrderDate",
+				"type": "String"
+			},
+			{
+				"name": "StockDate",
+				"type": "String"
+			},
+			{
+				"name": "OrderNumber",
+				"type": "String"
+			},
+			{
+				"name": "ProductKey",
+				"type": "String"
+			},
+			{
+				"name": "CustomerKey",
+				"type": "String"
+			},
+			{
+				"name": "TerritoryKey",
+				"type": "String"
+			},
+			{
+				"name": "OrderLineItem",
+				"type": "String"
+			},
+			{
+				"name": "OrderQuantity",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
