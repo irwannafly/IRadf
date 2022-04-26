@@ -9,49 +9,18 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "prop_0",
-				"type": "varchar"
+				"name": "ProductCategoryKey",
+				"type": "int",
+				"precision": 10
 			},
 			{
-				"name": "Age",
-				"type": "varchar"
-			},
-			{
-				"name": "IQ",
-				"type": "varchar"
-			},
-			{
-				"name": "Height",
-				"type": "varchar"
-			},
-			{
-				"name": "Weight",
-				"type": "varchar"
-			},
-			{
-				"name": "o",
-				"type": "varchar"
-			},
-			{
-				"name": "c",
-				"type": "varchar"
-			},
-			{
-				"name": "e",
-				"type": "varchar"
-			},
-			{
-				"name": "a",
-				"type": "varchar"
-			},
-			{
-				"name": "n",
+				"name": "CategoryName",
 				"type": "varchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "corr_matrix_dummy"
+			"table": "Categories"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
